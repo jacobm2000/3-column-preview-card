@@ -1,0 +1,130 @@
+@font-face{
+    font-family: lexendDeca;
+    src:url(./LexendDeca-Regular.tff)
+}
+@font-face{
+    font-family: big;
+    src:url(./BigShouldersDisplay-Regular.ttf)
+}
+
+
+.card{
+   text-align: left;
+   padding-left: 2rem;
+   padding-right: 2rem;
+   justify-content: center;
+   border-radius: .5rem;
+   
+}
+
+.bg-orange{
+    background-color: hsl(31, 77%, 52%);
+}
+.bg-lcyan{
+    background-color: hsl(184, 100%, 22%);
+}
+.bg-dcyan{
+    background-color: hsl(179, 100%, 13%);
+}
+.c-orange{
+    color: hsl(31, 77%, 52%);
+}
+.c-lcyan{
+    color: hsl(184, 100%, 22%);
+}
+.c-dcyan{
+    color: hsl(179, 100%, 13%);
+}
+.card-group{
+    width: 60%;
+   
+}
+.card-title{
+    color:hsl(0, 0%, 95%);
+    font-family: big;
+    font-weight: 700;
+    font-size: 30px;
+    
+}
+.card-text{
+    font-family:lexandDeca;
+    font-size: 15px;
+    height: 15rem;
+    color:hsla(0, 0%, 100%, 0.75);
+    font-weight: 400;
+}
+.card-img-top{
+    width: 30%;
+    margin-left: 1rem;
+    margin-top: 2rem;
+}
+body
+{
+    margin-top: 10rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    
+}
+
+.btn
+{
+background-color:  hsl(0, 0%, 95%);
+margin-bottom: 1rem;
+border-radius: 2rem;
+}
+@media only screen and (max-width: 1200px) {
+    .card-group{
+        width: 40rem;
+    }
+}
+@media only screen and (max-width: 575px) {
+    body{
+        margin-left: 0rem;
+        margin-right: 0rem;
+        margin-top: 4rem;
+        margin-bottom: 4rem;
+        
+    }
+    .card-group{
+    display:flex;
+    width: 100%;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+    
+    }
+    
+    .card{
+        margin-left: 2rem;
+        margin-right: 2rem;
+        text-align: left;
+
+        height: 22rem;
+        padding-left: 0rem;
+        padding-right: 0rem;
+        justify-content: center;
+        border-radius: .5rem;
+        
+        padding-bottom: 4rem;
+        padding-top: 2rem;
+    
+        margin-top: -1.5rem;
+        margin-bottom: 0rem;
+        
+     }
+     
+     .btn{
+        margin-left: 1rem;
+        margin-bottom: 1rem;
+        
+     }
+     .card-text{
+        justify-content: center;
+        width: 75%;
+        height: 50%;
+        margin-left:2rem;
+        margin-top: 1.5rem;
+        margin-bottom: 1rem;
+        
+       
+    }
+}
