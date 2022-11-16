@@ -17,7 +17,7 @@
 ### Links
 
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [URL](https://jacobm2000.github.io/3-column-preview-card/)
 
 ## My process
 
